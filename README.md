@@ -90,7 +90,7 @@ Grad-CAM was used to visualize image regions contributing to model predictions f
 
 Exploratory inspection raised questions about potential reliance on chest tubes and other visual artifacts. These observations are hypotheses and do not establish shortcut learning.
 
-![Grad-CAM visualization](figures/gradcam_Pneumothorax.png)
+![Grad-CAM visualization](gradcam_Pneumothorax.png)
 
 ## Probability Calibration
 
@@ -102,7 +102,7 @@ Temperature scaling was applied to model logits.
 
 The results indicate a small improvement in average calibration error.
 
-![Calibration curves](figures/calibration_plots.png)
+![Calibration curves](calibration_plots.png)
 
 ## Subgroup Analysis
 
